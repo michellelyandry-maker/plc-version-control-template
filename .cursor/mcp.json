@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "git": {
+      "command": "uvx",
+      "args": ["mcp-server-git", "--repository", "."]
+    },
+    "plc-export": {
+      "command": "python",
+      "args": ["REPLACE_WITH_PATH_TO_plc-openness-export-tool\\server.py"]
+    }
+  }
+}
