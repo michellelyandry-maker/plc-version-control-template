@@ -32,23 +32,18 @@ https://github.com/michellelyandry-maker/plc-openness-export-tool
 
 
 
-\## Cursor / MCP setup
+## Cursor / MCP setup
+
+This repo includes a `.cursor/mcp.json` file, already configured to work
+automatically — as long as you clone the export tool to this exact
+location on your machine:
+
+C:\PLC_Tools\plc-openness-export-tool
 
 
-
-This repo includes a `.cursor/mcp.json` file so you can work with Git and
-
-run exports conversationally in Cursor, instead of manual commands.
-
-
-
-Before it works, replace the `plc-export` path inside `.cursor/mcp.json`
-
-with wherever you cloned the export tool repo on your machine. See that
-
-repo's README for full MCP setup instructions (installing `uv`, Python,
-
-and the `mcp` package).
+If you clone it anywhere else, edit the `plc-export` path in
+`.cursor/mcp.json` to match. See that repo's README for full setup
+instructions (installing `uv`, Python, and the `mcp` package).
 
 
 
