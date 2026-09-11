@@ -14,7 +14,7 @@ This repository tracks version history for the \[Project Name] PLC project
 
 &#x20; Version Control Interface (VCI)
 
-\- `hardware\_config.json` — hardware configuration (CPU, modules, network
+\- `hardware\\\_config.json` — hardware configuration (CPU, modules, network
 
 &#x20; settings), exported using the shared export tool:
 
@@ -29,6 +29,26 @@ See the export tool's README for full setup instructions (Openness,
 .NET Framework, Windows security group, Git):
 
 https://github.com/michellelyandry-maker/plc-openness-export-tool
+
+
+
+\## Cursor / MCP setup
+
+
+
+This repo includes a `.cursor/mcp.json` file so you can work with Git and
+
+run exports conversationally in Cursor, instead of manual commands.
+
+
+
+Before it works, replace the `plc-export` path inside `.cursor/mcp.json`
+
+with wherever you cloned the export tool repo on your machine. See that
+
+repo's README for full MCP setup instructions (installing `uv`, Python,
+
+and the `mcp` package).
 
 
 

@@ -6,7 +6,7 @@
     },
     "plc-export": {
       "command": "python",
-      "args": ["REPLACE_WITH_PATH_TO_plc-openness-export-tool\\server.py"]
+      "args": ["C:\\Users\\Michelle Lyandry\\source\\repos\\PLC_Openness_Export\\PLC_Openness_Export\\server.py"]
     }
   }
 }
